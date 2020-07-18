@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i;300,300i,400,400i,500,500i,700,700i,900,900i');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(90deg, #FE3233, #FCE2E3 );
+    padding: 20px;
+}
+
+.container-all{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.ctn-form{
+    width: 70%;
+    padding: 40px;
+    background: #FDF9F8;
+}
+
+.lock{
+    width: 100px;
+    display: block; 
+    margin: auto;
+}
+
+.title{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 300;
+    color: #7a7a7a;
+}
+
+.label{
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 20px;
+    color: #7a7a7a;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    height: 30px;
+    background: rgba(0,0,0,0);
+    border: 0px;
+    outline: 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    color: #FE3233;
+    font-size: 16px;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    margin-top: 60px;
+    color: white;
+    font-size: 25px;
+    border: 0px;
+    background: linear-gradient(90deg, #FE3233, #FCE2E3 );
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background: linear-gradient(90deg, #FCE2E3, #FE3233  );
+    
+}
+
+.text-bottom{
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 19px;
+    color: #7a7a7a;
+    font-weight: 500;
+
+}
+
+.text-bottom a{
+color: #C01D1B;
+font-weight: 700;
+}
+
+/* Descripcion - Lado derecho */
+
+.ctn-text{
+    width: 100%;
+    background-image: url(../Imagenes/web.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 90px;
+    position: relative;
+}
+
+.capa{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #FE3233, #FCE2E3 );
+    opacity: 0.8;
+}
+
+.title-description{
+    position: relative;
+    top: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    
+
+}
+
+/* Validacion - error*/
+
+.msg-error{
+    color: red;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Responsive - Ajustar la pantalla*/
+
+@media screen and (max-width:800px){
+    .ctn-text{
+        display: none;
+    }
+    .ctn-form{
+        margin: auto;
+        width: 100%;
+        background: white;
+    }
+}
+
+
+
+/* Estilos para el Index */
+
+.ctn-index{
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+    background: red;
+    border-radius: 20px;
+}
+
+.cerrar-sesion{
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    display: block;
+    padding: 20px;
+    margin-top: 40px;
+    background: linear-gradient(90deg, #FE3233, #FCE2E3 );
+    color: black;
+}
